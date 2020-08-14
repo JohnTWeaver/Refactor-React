@@ -1,6 +1,10 @@
 import React from "react";
 import "./App.css";
 import Game from "./components/game/Game";
+import raccoonImage from "../src/components/assets/images/raccoon.png";
+import squirrelImage from "../src/components/assets/images/squirrel.png";
+import bunnieImages from "../src/components/assets/images/bunny.png";
+import hound from "../src/components/assets/images/hound.png";
 // function App() {
 //   return (
 //     <div className="App">
@@ -24,23 +28,26 @@ import Game from "./components/game/Game";
 function App(props) {
   const raccoons = {
     name: "Russiaville Raccoons",
-    // logoSrc: "./assets/images/raccoon.png",
+    logoSrc: "./assets/images/raccoon.png",
+    logoSrc: raccoonImage,
   };
 
   const squirrels = {
     name: "Sheridan Squirrels",
     // logoSrc: "./assets/images/squirrel.png",
-    logoSrc: "../src/components/assets/images/squirrel.png",
+    logoSrc: squirrelImage,
   };
 
   const bunnies = {
     name: "Burlington Bunnies",
-    logoSrc: "./assets/images/bunny.png",
+    //logoSrc: "./assets/images/bunny.png",
+    logoSrc: bunnieImages,
   };
 
   const hounds = {
     name: "Hammond Hounds",
-    logoSrc: "./assets/images/hound.png",
+    //logoSrc: "./assets/images/hound.png",
+    logoSrc: hound,
   };
 
   return (
